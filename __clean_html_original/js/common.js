@@ -18,9 +18,11 @@ $(".top-mnu ul a").click(function(){
 
 $(".toggle_mnu").click(function(){
   if ($(".top-mnu").is(":visible")){
+  $(".top_text").removeClass("h_opacity");
   $(".top-mnu").fadeOut(600);
   $(".top-mnu li a").removeClass("fadeInUp animated")
 } else {
+  $(".top_text").addClass("h_opacity");
   $(".top-mnu").fadeIn(600);
   $(".top-mnu li a").addClass("fadeInUp animated")
 };

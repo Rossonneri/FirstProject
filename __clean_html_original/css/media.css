@@ -35,7 +35,11 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-
+	.top_wrapper .top_text h1{
+		/*font-size:2em;*/
+		/*padding-left: 10px;*/
+		/*padding-right: 10px;*/
+	}
 }
 
 /* Small Devices, Tablets */
