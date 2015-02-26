@@ -1,4 +1,13 @@
 $(document).ready(function() {
+
+$(".popup").magnificPopup({type: 'image'});
+
+$(".top_text h1").animated("fadeInDown", "fadeOutUp");
+$(".top_text p, .section_header").animated("fadeInUp", "fadeOutDown");
+$(".animation_left").animated("fadeInLeft", "fadeOutLeft");
+$(".animation_photo").animated("flipInY", "flipOutY");
+$(".animation_right").animated("fadeInRight", "fadeOutRight");
+
 function heightDetect(){
 	$(".main_head").css("height", $(window).height());
 }
