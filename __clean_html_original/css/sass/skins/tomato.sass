@@ -96,22 +96,23 @@ section
 		border-color: $color
 		color: $color
 
-.port_descr
-	background-color: #fff
-	max-width: 500px
-	margin: auto
-	p,
-	h3
-		padding: 20px
-		padding-bottom: 0
-	h3
-		margin-bottom: 0
-		text-align: center
-		text-transform: uppercase
-		font-weight: 400
-		margin-top: 20px
-	p
-		margin-top: 0
-	img
-		width: 100%
-		margin-top: 20px
+.main_footer a
+	color: $color
+
+.contacts_icon
+	color: $color
+
+form
+	input:focus,
+	textarea:focus
+		border: 1px solid $color
+	input,
+	textarea
+		+kerning(2)
+	button
+		background-color: $color
+		+kerning(2)
+	.form_group
+		+kerning(2)
+		color: $text_color
+
